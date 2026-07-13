@@ -21,11 +21,16 @@ body{
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
 
-    .nav-links,
-    .nav-btn {
+@media(max-width:768px){
+
+    .nav-links {
         display: none;
+        flex-direction: column;
+    }
+
+    .nav-links.active {
+        display: flex;
     }
 
     .hamburger {
