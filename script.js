@@ -1,3 +1,5 @@
+// Testimonials
+
 const testimonials = [
     {
         message: "Bubble Consult helped us grow our business quickly. Their team was professional and supportive.",
@@ -37,3 +39,10 @@ setInterval(function () {
     current = (current + 1) % testimonials.length;
     showTestimonial();
 }, 5000);
+
+
+// Hamburger Menu
+
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+}
