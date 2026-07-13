@@ -20,17 +20,18 @@ body{
     font-size: 30px;
     cursor: pointer;
 }
-
-
-@media(max-width:768px){
+@media (max-width: 768px) {
 
     .nav-links {
         display: none;
-        flex-direction: column;
     }
 
     .nav-links.active {
         display: flex;
+    }
+
+    .nav-btn {
+        display: none;
     }
 
     .hamburger {
